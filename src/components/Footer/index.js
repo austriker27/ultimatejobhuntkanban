@@ -6,18 +6,18 @@ const Header = () => (
       <p className="text-white">
         Created by{" "}
         <a
-          href="https://taylorbryant.blog"
+          href="https://www.davidalindahl.com"
           className="font-bold no-underline text-white"
         >
-          Taylor Bryant
+          David A. Lindahl
         </a>
       </p>
+
       <p>
-        <a
-          href="https://github.com/taylorbryant/gatsby-starter-tailwind"
-          className="font-bold no-underline text-white"
-        >
-          GitHub
+        <a className="bmc-button" target="_blank" href="https://www.buymeacoffee.com/austriker">
+          <img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Buy me a coffee">
+          </img>
+            <span className="coffeeText">Buy me a coffee</span>
         </a>
       </p>
     </div>
