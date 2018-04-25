@@ -193,6 +193,9 @@ module.exports = {
   */
 
   fonts: {
+    'title': [
+      'Playfair Display',
+    ],
     'sans': [
       'system-ui',
       'BlinkMacSystemFont',

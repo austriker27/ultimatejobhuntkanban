@@ -6,9 +6,10 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "./index.css";
 import "./footer.css";
+import "./typography.css";
 
 const TemplateWrapper = ({ children }) => (
-  <div className="flex flex-col font-sans min-h-screen text-grey-darkest">
+  <div className="flex flex-col font-sans min-h-screen text-grey-darkest container">
     <Helmet
       title="The Ultimate Job Hunt Kanban"
       meta={[
@@ -17,7 +18,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full">
+    <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto px-4 py-8 md:p-8 w-full items-center bg-blue-darker">
       {children()}
     </div>
     <Footer />
