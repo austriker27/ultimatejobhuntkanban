@@ -4,6 +4,7 @@
 
 .font-title {
   font-family: 'Playfair Display', sans-serif;
+  letter-spacing: 0.5em;
 }
 
 .font-body {

@@ -9,7 +9,7 @@ import "./footer.css";
 import "./typography.css";
 
 const TemplateWrapper = ({ children }) => (
-  <div className="flex flex-col font-sans min-h-screen text-grey-darker bg-blue">
+  <div className="flex flex-col font-sans min-h-screen text-grey-dark bg-blue">
     <Helmet
       title="The Ultimate job search Kanban"
       meta={[
@@ -18,7 +18,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     
-    <div className="flex flex-col flex-1 md:justify-center max-w-xl mx-auto py-8 w-full items-center bg-white">
+    <div className="flex flex-col flex-1 md:justify-center mx-auto py-8 w-3/4 items-center bg-white">
       {children()}
     </div>
     <Footer />

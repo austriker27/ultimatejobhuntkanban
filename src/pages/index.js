@@ -5,25 +5,25 @@ import browserMock from "../images/browser-mock.png";
 const IndexPage = () => (
   <div className="text-center bg-white  my-8">
     
-    <h2 className="inline-block my-8 p-3 uppercase leading-loose w-1/2 mx-auto font-title text-5xl tracking-wide font-normal">
+    <h2 className="my-8 p-3 uppercase w-3/4 mx-auto font-title text-4xl font-normal">
       The <span className="font-black"><br></br>Ultimate job search Kanban</span>
     </h2>
-    <p className="font-body my-8 p-3 mx-auto w-1/2 text-2xl tracking-wide">
+    <p className="font-body my-8 p-3 mx-auto w-1/2 text-xl tracking-wide">
         If you like Trello, and you like finding a new job quickly, you will <span className="text-blue font-bold bg-blue-lighter">absolutely love</span> this.
     </p>
     <img src={browserMock} className="block mx-auto container shadow-lg" />
-    <p className="font-body my-8 p-3 mx-auto w-1/2 text-2xl  tracking-wide">
+    <p className="font-body my-8 p-3 mx-auto w-1/2 text-xl  tracking-wide">
     Being a hyper nerd about digital organization, I spent countless hours compiling and culling all the best resources for my job search. And after trying several job search organization websites, I decided I needed a more custom solution. <br></br>So I went back to trusty Trello for maximum customization. 
     </p>
 
-    <p className="font-body my-8 p-3 mx-auto w-1/2 text-2xl  tracking-wide">
+    <p className="font-body my-8 p-3 mx-auto w-1/2 text-xl  tracking-wide">
     I transformed my own job searching board into this template for your use.
     Save time on organizing your job search so you can spend more time job searching.
     </p>
 
     <div className="flex flex-col items-center rounded overflow-hidden">
       <div className="flex">
-        <button className="block text-white text-sm shadow-border bg-blue hover:bg-blue-dark text-sm py-3 px-4 font-sans tracking-wide uppercase font-bold text-3xl">
+        <button className="block text-white text-sm shadow-border bg-blue hover:bg-blue-dark text-sm py-3 px-4 font-body tracking-wide uppercase font-bold text-xl">
           Open the Template
         </button>
         <div className="bg-blue-light shadow-border p-3">
