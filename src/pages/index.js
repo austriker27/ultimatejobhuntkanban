@@ -5,7 +5,7 @@ import browserMock from "../images/browser-mock.png";
 const IndexPage = () => (
   <div className="text-center bg-white  my-8">
     
-    <h2 className="my-8 p-3 uppercase w-3/4 mx-auto font-title text-4xl sm:text-2xl md:text-3xl font-normal">
+    <h2 className="my-8 p-3 uppercase w-3/4 mx-auto font-title text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl font-normal leading-normal md:leading-loose lg:leading-loose xl:leading-loose">
       The <span className="font-black"><br></br>Ultimate job search Kanban</span>
     </h2>
     <p className="font-body my-8 p-3 mx-auto w-full md:w-1/2 lg:w-1/2 xl:w-1/2 text-lg sm:text-base tracking-wide">
