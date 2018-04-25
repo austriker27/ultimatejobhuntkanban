@@ -9,9 +9,9 @@ import "./footer.css";
 import "./typography.css";
 
 const TemplateWrapper = ({ children }) => (
-  <div className="flex flex-col font-sans min-h-screen text-grey-darkest bg-blue">
+  <div className="flex flex-col font-sans min-h-screen text-grey-darker bg-blue">
     <Helmet
-      title="The Ultimate Job Hunt Kanban"
+      title="The Ultimate job search Kanban"
       meta={[
         { name: "description", content: "Sample" },
         { name: "keywords", content: "sample, something" }
