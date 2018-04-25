@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
+  "name": "Ultimate Job Search Kanban",
+  "description": "The Ultimate job search kanban trello template",
   "version": "1.1.0",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "author": "David A. Lindahl <me@davidalindahl.com>",
   "dependencies": {
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",

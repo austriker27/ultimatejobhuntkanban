@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Tailwind',
+    title: 'The Ultimate Job Search Kanban',
   },
   plugins: ['gatsby-plugin-react-helmet'],
 };
