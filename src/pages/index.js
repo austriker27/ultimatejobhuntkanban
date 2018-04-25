@@ -5,19 +5,22 @@ import browserMock from "../images/browser-mock.png";
 const IndexPage = () => (
   <div className="text-center bg-white  my-8">
     
-    <h2 className="my-8 p-3 uppercase w-3/4 mx-auto font-title text-4xl font-normal">
+    <h2 className="my-8 p-3 uppercase w-3/4 mx-auto font-title text-4xl sm:text-3xl md:text-3xl font-normal">
       The <span className="font-black"><br></br>Ultimate job search Kanban</span>
     </h2>
-    <p className="font-body my-8 p-3 mx-auto w-1/2 text-xl tracking-wide">
+    <p className="font-body my-8 p-3 mx-auto w-1/2 text-lg tracking-wide">
         If you like Trello, and you like finding a new job quickly, you will <span className="text-blue font-bold bg-blue-lighter">absolutely love</span> this.
     </p>
     <img src={browserMock} className="block mx-auto container shadow-lg" />
-    <p className="font-body my-8 p-3 mx-auto w-1/2 text-xl  tracking-wide">
+    <p className="font-body font-light my-8 p-3 mx-auto w-1/2 text-xl  tracking-wide">
     Being a hyper nerd about digital organization, I spent countless hours compiling and culling all the best resources for my job search. And after trying several job search organization websites, I decided I needed a more custom solution. <br></br>So I went back to trusty Trello for maximum customization. 
     </p>
 
-    <p className="font-body my-8 p-3 mx-auto w-1/2 text-xl  tracking-wide">
+    <p className="font-body font-light my-8 p-3 mx-auto w-1/2 text-xl  tracking-wide">
     I transformed my own job searching board into this template for your use.
+    </p>
+
+    <p className="font-body font-light my-8 p-3 mx-auto w-1/2 text-lg tracking-wide">
     Save time on organizing your job search so you can spend more time job searching.
     </p>
 
@@ -30,7 +33,7 @@ const IndexPage = () => (
           <div className="w-8 h-8">
             <svg className="fill-current text-white h-full" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
             
-            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="Page-1" stroke="none" stroke-width="1">
                 <g id="Logos" transform="translate(-1579.000000, -521.000000)">
                     <g id="Group" transform="translate(-9.000000, 1.000000)">
                         <g id="Trello-Logo" transform="translate(468.000000, 0.000000)">

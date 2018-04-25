@@ -18,7 +18,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     
-    <div className="flex flex-col flex-1 md:justify-center mx-auto py-8 w-3/4 items-center bg-white">
+    <div className="flex flex-col flex-1 md:justify-center mx-auto py-8 w-1/4 sm:w-3/4 md:w-1/2 lg:w-1/2 xl:w-1/2 items-center bg-white">
       {children()}
     </div>
     <Footer />

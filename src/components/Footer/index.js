@@ -4,7 +4,7 @@ import twitter from "../../images/twitter.svg"
 
 const Header = () => (
   <div className="bg-blue">
-    <div className="flex justify-around max-w-xl mx-auto p-4 md:p-8 text-sm">
+    <div className="flex justify-around max-w-xl mx-auto p-2 md:p-4 text-sm">
       <p>
           <a href="https://twitter.com/austriker27"  title="Twitter" className=" align-middle">
             <svg className="h-full fill-current text-white" viewBox="0 0 512 512">
@@ -15,14 +15,14 @@ const Header = () => (
 
       <p>
         <a className="bmc-button align-middle" target="_blank" href="https://www.buymeacoffee.com/austriker">
-          <img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Buy me a coffee">
+          <img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" className="h-full" alt="Buy me a coffee">
           </img>
-            <span className="coffeeText">Buy me a coffee</span>
+            <span className="coffeeText text-xs font-light font-body">Buy me a coffee</span>
         </a>
       </p>     
     </div>
 
-    <div className="flex justify-around max-w-xl mx-auto p-4 md:p-8 text-sm">
+    <div className="flex justify-around max-w-xl mx-auto p-2 md:p-4 text-xs font-light font-body">
       <p className="text-white align-middle">
         Created by{" "}
         <a
