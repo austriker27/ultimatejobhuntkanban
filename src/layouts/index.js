@@ -13,8 +13,8 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="The Ultimate job search Kanban"
       meta={[
-        { name: "description", content: "Sample" },
-        { name: "keywords", content: "sample, something" }
+        { name: "description", content: "The ultimate job search kanban trello template; an excellent resource for anyone looking to organize their job search and save time." },
+        { name: "keywords", content: "trello, trello template, template, kanban, kanban board, job search, job hunt, career, professional, interviews, applications, applying to jobs, job hunting is the worst, organization tool" }
       ]}
     />
     
