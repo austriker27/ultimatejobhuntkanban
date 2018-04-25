@@ -27,7 +27,7 @@ const IndexPage = () => (
     <div className="flex flex-col items-center rounded overflow-hidden">
       <div className="flex">
         <button className="block text-white text-sm shadow-border bg-blue hover:bg-blue-dark text-sm py-3 px-4 font-body tracking-wide uppercase font-bold text-xl">
-          Open the Template
+        <a href="https://trello.com/b/qdXnbUBi" target="_blank" className="text-white">Open the Template</a>
         </button>
         <div className="bg-blue-light shadow-border p-3">
           <div className="w-8 h-8">
