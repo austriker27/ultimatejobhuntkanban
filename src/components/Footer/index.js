@@ -1,6 +1,8 @@
 import React from "react";
 
 import twitter from "../../images/twitter.svg"
+import BMClogo from "../../images/BMC-btn-logo.svg"
+
 
 const Header = () => (
   <div className="bg-blue">
@@ -15,7 +17,7 @@ const Header = () => (
 
       <p>
         <a className="bmc-button align-middle" target="_blank" href="https://www.buymeacoffee.com/austriker">
-          <img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" className="h-full" alt="Buy me a coffee">
+          <img src={BMClogo} className="h-full" alt="Buy me a coffee">
           </img>
             <span className="coffeeText text-xs font-light font-body">Buy me a coffee</span>
         </a>
