@@ -25,7 +25,7 @@ const IndexPage = () => (
         </button>
         <div className="bg-blue-light shadow-border p-3">
           <div className="w-4 h-4">
-            <svg className="fill-current text-white h-max" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <svg className="fill-current text-white h-full" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
             
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="Logos" transform="translate(-1579.000000, -521.000000)">
